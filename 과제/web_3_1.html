@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60222117_이서현</title>
+    <style>
+        .box{
+            width:190px; height: 395px;
+            margin: 5px;
+            float: left;
+            font-size: 15px;
+        }
+        .box:nth-child(1){
+            background-color: yellow;
+            position:absolute; left:5px;
+        }
+        .box:nth-child(2){
+            background-color: green;
+            width: 395px; height: 395px;
+            position:absolute; left:200px;
+        }
+        .box:nth-child(3){
+            background-color: red;
+            position:absolute; left:600px;
+        }
+
+        .bottombox{
+            font-size: 15px;
+            width: 180px; height: 180px;
+            float:bottom;
+            background-color: blue;
+            margin:5px;
+            margin-left: 5px;
+        }
+        .centerbox{
+            margin:5px;
+            margin-top: 0px;
+            background-color: white;
+            float:left;
+        }
+        .centerbox:nth-child(1){
+            margin-right: 5px;
+        }
+        .centerbox:nth-child(2){
+            margin-left: 5px;
+        }
+        .bottombox:nth-child(1){
+            margin-top:5px;
+        }
+        .bottombox:nth-child(2){
+            margin:5px;
+        }
+        
+        .bottombox3{
+            font-size: 15px;
+            background-color:rgb(151, 204, 232);
+            width:180px; height: 180px;
+            margin:5px;
+            margin-top:185px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        사이드바 왼쪽
+        <div class="bottombox">사이드바 왼쪽 위</div>
+        <div class="bottombox">사이드바 왼쪽 아래</div>
+    </div>
+    <div class="box">
+        <div class="centerbox">첫번째 공간</div>
+        <div class="centerbox">두번째 공간</div>
+    </div>
+    <div class="box">
+        사이드바 오른쪽
+        <div class="bottombox3">사이드바 오른쪽 아래</div>
+    </div>
+    
+</body>
+</html>
