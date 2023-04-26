@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+/* navigation */
+nav{
+    height: 60px;
+    background-color: rgb(241, 197, 220);
+    line-height: 60px;
+}
+nav::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+i:hover{
+    color:white;
+}
+.nav-container{
+    width:960px;
+    margin: 0 auto;
+    position: relative;
+}
+.nav-header{
+    float:left;
+    margin:0;
+    color:black;
+}
+.nav-header:hover{
+    color:white;
+}
+.nav-content{
+    float:right;
+    list-style-type: none;
+    margin:0;
+}
+ul.nav-content > li{
+    margin-left: 30px;
+    float:left;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+.nav-content > li:hover{
+    color:white;
+}
+
+/* header */
+header{
+    position: relative;
+    float:center;
+}
+.header-container{
+    height: 350px;
+    margin:0 auto;
+    background-image:url("header1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.header-head{
+    height:350px;
+    margin:0;
+    position: relative;
+    float:center;
+    padding:130px;
+    font-size:50px;
+    color:black;
+    background-color: rgba(225,225,225,0.5);
+}
+.header-head:hover{
+    color:white;
+}
+.header-content{
+    float:bottom;
+    margin-top: 40px;
+    font-size:20px;
+}
+
+/* section */
+section{
+    background-color:rgb(241, 197, 220);
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.section-head {
+    text-align: center;
+    font-size: 30px;
+}
+.section-head:hover{
+    color:white;
+}
+.fav-music:hover{
+    color:white;
+}
+.section-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content: center;
+}
+.section-container h1{
+text-align: center;
+font-size: 20px;
+}
+article h1:hover{
+    color:white;
+}
+
+/* footer */
+.footer-container{
+   text-align: center;
+   height: 50px;
+   font-size:13px;
+}
+.email > a:hover{
+    color:black;
+}
+.email > a:active{
+    color:rgb(250, 84, 167);
+}
